@@ -16,7 +16,8 @@ try:
     else:
         print('Wrong Operator')
         output = False
-    if output == True:
+    if output:
      print('result is',result) 
 except ValueError:
     print('Numbers only accept to calculate! Please try again . . ')
+    print(ValueError)
